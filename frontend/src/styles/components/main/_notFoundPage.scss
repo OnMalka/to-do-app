@@ -1,0 +1,22 @@
+.not-found-div {
+    width: 100%;
+    height: calc(100vh - 4rem);
+    padding: 1rem;
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    a {
+        margin-top: 3rem;
+        text-decoration: none;
+        color: $myBlue;
+        padding: 0.5rem;
+    };
+
+    a:hover {
+        background-color: $myYellow;
+        color: darken($color: $myBlue, $amount: 7%);
+        border-radius: 0.5rem;
+    };
+};
